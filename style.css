@@ -1,0 +1,83 @@
+* {
+    transition: all 0.4s linear;
+}
+
+
+body {
+    color: hotpink;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1 {
+color: navy;
+text-align: center;
+text-decoration: underline;
+font-size: 32px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+p:hover {
+    background: navy;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+    background: yellow;
+    padding: 16px;
+    margin-bottom: 40px;
+    border: 3px solid violet;
+    border-radius: 10px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.square {
+    width: 50px;
+    height: 100px;
+    background: rgb(228, 167, 156);
+    position: relative;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 45px;
+    
+}
+
+@media (max-width: 600px){
+    body {
+        background: hotpink;
+    }
+}
+.centered {
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 500px;
+    background: url('img/ocean.jpg');
+    background-size: cover;
+}
+.avatar {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 240px;
+    border-radius: 50%;
+}
